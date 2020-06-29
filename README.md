@@ -20,6 +20,13 @@ To achieve this, there are four different components in this app:
 3. `BookAdapter` - Responsible for mapping each `Book` to a particular view layout
 4. `BookListActivity` - Responsible for fetching and deserializing the data and configuring the adapter
 
+## Features I added: 
+1. Used SearchView to add a search EditText in the menu
+2. Modify the API call and search results based on the submitted search text
+3. Created intent to start the BookDetailsActivity
+4. Switched ActionBar to Toolbar
+5. Added a share feature that allows the user to share in different ways
+
 ## Usage
 This app is intended to be the base project on top of which new features can be added. To use it, clone the project and import it using the following steps:
 
